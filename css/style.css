@@ -1,0 +1,73 @@
+body{
+    padding-top: 50px;
+}
+
+.album{
+    font-size: 20px;
+}
+
+.contact{
+    padding-left: 110px;
+}
+
+.contact ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.contact ul a{
+    color: white;
+}
+
+@media (max-width: 768px) { 
+    .contact{
+        padding-left: 15px;
+    }
+  
+}
+
+.banner{
+    height: 450px;
+}
+
+.banner h6{
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.banner h1{
+    font-weight: 300;
+
+}
+.banner .content{
+    padding: 0 45px;
+}
+
+/* card */
+.card{
+    border: none;
+    box-shadow: 5px 5px 5px 2px lightgray;
+}
+
+.btn-group.btn-group-toggle .btn {
+	padding: 3px;
+}
+
+label.btn {
+	padding: 0;
+}
+
+.min{
+    line-height: 3;
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 98%;
+    }
+    
+    
+}
+
